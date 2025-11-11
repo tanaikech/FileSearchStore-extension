@@ -8,7 +8,7 @@
 
 ## Description
 
-This repository introduces a new Gemini CLI extension that integrates Google's File Search feature. This tool establishes a fully managed Retrieval-Augmented Generation (RAG) system directly on the command line.
+This repository introduces a new Gemini CLI extension that integrates File Search feature. This tool establishes a fully managed Retrieval-Augmented Generation (RAG) system directly on the command line.
 
 The extension is designed to simplify the use of the Gemini API's File Search, a powerful new feature that enables RAG grounded in personal or proprietary knowledge bases. While the underlying API requires scripting, this Node.js-built CLI extension allows users to seamlessly manage File Search stores and generate context-aware content grounded in their private documents without having to leave the terminal interface.
 
