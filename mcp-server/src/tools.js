@@ -298,13 +298,11 @@ const __tools = [
           .optional(),
         prompt: z
           .string()
-          .describe(
-            "The name of the FileSearchStore containing Documents. Example: fileSearchStores/my-file-search-store-123 It takes the form fileSearchStores/{filesearchstore}."
-          ),
+          .describe("The prompt for generating content using Gemini API."),
         metadataFilter: z
           .string()
           .describe(
-            "Metadata filter to apply to the semantic retrieval documents and chunks."
+            `Metadata filter to apply to the semantic retrieval documents and chunks. Ex. 'author="Robert Graves"'`
           )
           .optional(),
       },
@@ -315,19 +313,3 @@ const __tools = [
 ];
 
 export const tools = [...__tools];
-
-// const __f = [
-//   "create_file_search_store",
-//   "get_file_search_store_list",
-//   // "delete_file_search_store",
-//   // "get_file_search_store",
-//   // "upload_media_to_file_search_store",
-//   // "upload_media_to_file_search_store",
-//   // "get_operation",
-//   // "delete_document",
-//   // "get_document",
-//   // "get_document",
-//   // "generate_content",
-// ];
-// const __ftools = __tools.filter((e) => __f.includes(e.name));
-// export const tools = [...__ftools];

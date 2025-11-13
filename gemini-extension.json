@@ -1,6 +1,6 @@
 {
   "name": "file-search-store-extension",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "contextFileName": "GEMINI.md",
   "mcpServers": {
     "file-search-store-extension": {

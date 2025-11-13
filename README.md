@@ -209,4 +209,8 @@ This Gemini CLI extension provides a powerful and convenient way to leverage the
 
   1.  Initial release.
 
+- v1.0.1 (November 13, 2025)
+
+  1.  A bug was removed.
+
 [TOP](#top)
