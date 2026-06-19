@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/tanaikech-filesearchstore-extension-badge.png)](https://mseep.ai/app/tanaikech-filesearchstore-extension)
+
 [![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENCE)
 
 <a name="top"></a>
